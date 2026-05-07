@@ -38,7 +38,7 @@ jobs:
             #    mvn package
 
             - name: 3.1 Build with Action
-              uses: dieha93/maven-actions@1.0.0
+              uses: dienha93/maven-actions@v1.0.0
               with:
                 operation: 'package'
                 java-version: '8'
